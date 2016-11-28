@@ -10,7 +10,7 @@ set -e
 
 GIT_DEPTH=10
 GIT_BRANCH=${GIT_BRANCH:-"master"}
-GITHUB_REPO=${GITHUB_REPO:-"codeskyblue/forego"}
+GITHUB_REPO=${GITHUB_REPO:-"ashleyct/travis-autobuild"}
 GIT_REPO="github.com/$GITHUB_REPO"
 
 GIT_WORKDIR="$GOPATH/src/$GIT_REPO"
